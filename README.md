@@ -108,6 +108,16 @@ However, you can manual verify with:
 npx hardhat verify --network goerli DEPLOYED_CONTRACT_ADDRESS
 ```
 
+## Linting
+To check linting / code formatting:
+```
+yarn lint
+```
+or, to fix:
+```
+yarn lint:fix
+```
+
 # Thank you!
 
 [![Abhishek S Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Abverse_)
