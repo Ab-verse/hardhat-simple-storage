@@ -23,5 +23,9 @@
     "prettier-plugin-solidity": "^1.1.0",
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.1.0"
-  }
+  },
+    "scripts": {
+        "lint": "yarn prettier --check .",
+        "lint:fix": "yarn prettier --write ."
+    }
 }
